@@ -1,3 +1,4 @@
-import py_compile
-a=py_compile
-print(a)
+import sys
+print("python version")
+print(sys.version)
+print(sys.version_info)
